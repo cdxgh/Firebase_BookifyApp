@@ -3,7 +3,7 @@ import {useNavigate} from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
-import { useFirebase } from '../context/firebase';
+import { useFirebase } from '../context/Firebase';
 
 const LoginPage = () => {
     const firebase = useFirebase();
